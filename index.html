@@ -1,13 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Metta - Blending Quantitative Analysis with Personal Growth</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="root"></div>
-    <script src="main.js"></script>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="Metta logo">
+        <h1>Metta</h1>
+      </div>
+      <ul class="navigation">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Unlock Your Financial Potential</h1>
+        <h2>and Achieve Personal Growth</h2>
+        <p>With Metta, we blend quantitative analysis with personal growth strategies to help you make informed financial decisions and lead a purposeful life.</p>
+        <a href="services.html" class="cta-button">Explore Services</a>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service">
+        <img src="service1.png" alt="Service 1">
+        <h3>Service 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae elit quis ex tristique gravida. Suspendisse a eleifend nulla, a tincidunt lectus. Quisque id metus ac mauris volutpat efficitur. Donec eleifend dictum erat at venenatis.</p>
+      </div>
+      <div class="service">
+        <img src="service2.png" alt="Service 2">
+        <h3>Service 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae elit quis ex tristique gravida. Suspendisse a eleifend nulla, a tincidunt lectus. Quisque id metus ac mauris volutpat efficitur. Donec eleifend dictum erat at venenatis.</p>
+      </div>
+      <!-- Add more service sections as needed -->
+    </section>
+
+    <section id="blog">
+      <h2>Latest Blog Posts</h2>
+      <div class="blog-post">
+        <img src="post1.png" alt="Blog Post 1">
+        <h3>Blog Post 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae elit quis ex tristique gravida.</p>
+        <a href="blog-post-1.html" class="read-more">Read More</a>
+      </div>
+      <div class="blog-post">
+        <img src="post2.png" alt="Blog Post 2">
+        <h3>Blog Post 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae elit quis ex tristique gravida.</p>
+        <a href="blog-post-2.html" class="read-more">Read More</a>
+      </div>
+      <!-- Add more blog post sections as needed -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Ready to take the next step? Reach out to us for personalized financial advice and personal growth guidance.</p>
+      <form class="contact-form" action="contact.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Metta. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms of Service</a></li>
+    </ul>
+    <ul class="social-media-icons">
+      <li><a href="#"><img src="facebook.png" alt="Facebook"></a></li>
+      <li><a href="#"><img src="twitter.png" alt="Twitter"></a></li>
+      <li><a href="#"><img src="instagram.png" alt="Instagram"></a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
